@@ -17,4 +17,14 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Areas\" />
+    <None Remove="Areas\Identity\" />
+    <None Remove="Areas\Identity\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Identity\" />
+    <Folder Include="Areas\Identity\Data\" />
+  </ItemGroup>
 </Project>
